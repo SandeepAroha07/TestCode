@@ -4,7 +4,7 @@ class checkdata:
         self.ds = []
 
     def get(self, string_name):
-        fmt = "test name instance [{}] is getting you {}".format(self.name, string_name)
+        fmt = "test name instance [{}] is getting you {} , Code lib 2 testing ".format(self.name, string_name)
         return fmt
 
     def add(self, string_name):
@@ -15,9 +15,8 @@ class checkdata:
         fmt = ""
         for s in self.ds:
             fmt = fmt + s
-        fmt = "test name instance [{}] is getting you {}".format(self.name, fmt)
+        fmt = "test name instance [{}] is getting you {} , In Code Lib".format(self.name, fmt)
         return fmt
     def show_msg():
         msg = "########################################## This is a test message ######################################"
         return msg
-        
