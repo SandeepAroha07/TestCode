@@ -20,3 +20,8 @@ class checkdatasum:
     def show_msg():
         msg = "########################################## This is a test message ######################################"
         return msg
+    def check_sum_all(predict_df):
+        msg = "########################################## This is a test message ######################################"
+        predict_values  = predict_values  + 200
+        return predict_values
+    
