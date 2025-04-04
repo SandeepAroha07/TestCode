@@ -1,4 +1,4 @@
-class checkdatasum:
+class checkdatasum_v1:
     def __init__(self, name):
         self.name = name
         self.ds = []
