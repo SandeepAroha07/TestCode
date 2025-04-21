@@ -1,4 +1,6 @@
 class checkdatasum:
+    import os
+    
     def __init__(self, name):
         self.name = name
         self.ds = []
