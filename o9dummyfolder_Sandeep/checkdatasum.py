@@ -20,7 +20,7 @@ class checkdatasum:
         fmt = "test name instance [{}] is getting you {} , In Code Lib".format(self.name, fmt)
         return fmt
     def show_msg():
-        msg = "########################################## This is a test message ######################################"
+        msg = "########################################## This is a test message with OS ######################################"
         return msg
     def check_sum_all(predict_values):
         
