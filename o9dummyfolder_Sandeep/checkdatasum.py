@@ -1,5 +1,5 @@
 class checkdatasum:
-    from os import abcd
+    import os
     
     def __init__(self, name):
         self.name = name
