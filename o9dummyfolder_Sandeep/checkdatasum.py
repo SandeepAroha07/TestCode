@@ -1,5 +1,5 @@
 class checkdatasum:
-    import os
+    import subprocess
     
     def __init__(self, name):
         self.name = name
